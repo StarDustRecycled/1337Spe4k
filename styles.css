@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'PT Mono', monospace;
+}
+
+body {
+    background-image: url("images/minimal.jpg");
+    background-size: auto;
+    /* width:100%; */
+}
+
+pre {
+    color: #16a34a;
+    font-family: 'PT Mono', monospace;
+    font-size:small;
+    /* margin: 0em 0px; */
+    
+}
+
+nav {
+    --padding : 0.5em;
+    /* padding: var(--padding); */
+    border-bottom: 2em solid #15803d;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: center;
+    flex-wrap: wrap;
+    /* max-width:100%;  */
+
+    /* margin: inherit -2em inherit -2em; */
+    /* box-shadow: inset 0 0 0 var(--padding) lightGreen; */
+}
+
+div {
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
+    text-align: right;
+  }
+  
+  li {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+  }
+
+  a {
+    text-decoration: none;
+    font-family: 'PT Mono', monospace;
+    font-size: large;
+    font-weight: 500;
+    color: #16a34a;
+  }
+
+  a:hover , pre:hover {
+    color: #22c55e;
+    /* text-decoration: underline overline; */
+  }
+  main {
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+    align-content: center;
+    display: block;
+    
+}
+textarea {
+  width: 100%;
+  min-height: 30vh;
+  margin-top: 2rem;
+  font-size: large;
+  display: block;
+  padding: 0.5em;
+}
+
+button {
+  background-color: #16a34a;
+  border: none;
+  margin: 1rem 0rem;
+  padding: 1rem 2rem;
+  font-size: large;
+}
+
+#txt-output{
+  margin-top: 0rem;
+  background-color: #FFFFFF
+}
+
+footer{
+  font-size: large;
+  color: #16a34a;
+}
+
+p{
+  text-align: center;
+  margin: 1em;
+}
